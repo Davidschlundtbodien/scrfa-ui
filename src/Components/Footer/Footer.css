@@ -13,7 +13,7 @@ img {
   width: 40%;
 }
 
-.footerSection {
+.footer-section {
   display: flex;
   flex-direction: column;
 
@@ -27,6 +27,6 @@ li {
   margin: 1em 0;
 }
 
-.officeAddress > p {
+.office-address > p {
   margin: 0;
 }
