@@ -1,0 +1,28 @@
+.catagory-section {
+  background: #e1e5ea;
+  padding: 2em 7em;
+  height: 10%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #142b47;
+}
+
+.catagory-icon {
+  height: 8em;
+  width: 8em;
+  margin: 1em;
+  background: #f3f6f9;
+  padding: 2em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catagory-icon > img {
+  height: 60%;
+  width: auto;
+}
