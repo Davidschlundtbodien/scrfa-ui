@@ -1,0 +1,15 @@
+header {
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 50%;
+}
+
+h1 {
+  color: #f3f6f9;
+}
