@@ -1,4 +1,5 @@
 import './App.css';
+import updates from './mockdata'
 import NavBar from './Components/NavBar/NavBar'
 import Header from './Components/Header/Header'
 import CatagoryIcons from './Components/CatagoryIcons/CatagoryIcons'
@@ -10,10 +11,11 @@ import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <CatagoryIcons/>
-    <PopularServices/>
-    <Footer/>
+      <Header/>
+      <CatagoryIcons/>
+      <PopularServices/>
+      <RecentUpdates updates={updates}/>
+      <Footer/>
     </div>
   );
 }
