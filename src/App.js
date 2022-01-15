@@ -12,6 +12,7 @@ function App() {
     <div className="App">
     <Header/>
     <CatagoryIcons/>
+    <PopularServices/>
     <Footer/>
     </div>
   );
