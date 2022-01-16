@@ -14,8 +14,10 @@ function App() {
       <Header/>
       <CatagoryIcons/>
       <PopularServices/>
-      <RecentUpdates updates={updates}/>
-      <CalenderEvents events={events} />
+      <section className="updates-events">
+        <RecentUpdates updates={updates}/>
+        <CalenderEvents events={events} />
+      </section>
       <Footer/>
     </div>
   );

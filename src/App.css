@@ -3,3 +3,10 @@
   text-align: center;
   background: #f3f6f9;
 }
+
+.updates-events {
+  width: auto;
+  padding: 3em 7em;
+  display: flex;
+  justify-content: space-between;
+}
