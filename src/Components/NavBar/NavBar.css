@@ -1,0 +1,41 @@
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-header {
+  display: flex;
+
+}
+
+.nav-header > img {
+  width: 5em;
+  height: 5em;
+}
+
+.nav-title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.nav-title > p {
+  font-weight: bold;
+  color: #1b3a61;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.nav-title > p:nth-child(3) {
+  font-size: .7em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
