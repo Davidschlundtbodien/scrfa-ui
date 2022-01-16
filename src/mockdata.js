@@ -1,5 +1,5 @@
 
-const updates = [
+export const updates = [
   {
     id: 1,
     title: "Local Government Finance",
@@ -37,4 +37,45 @@ const updates = [
   }
 ]
 
-export default updates;
+export const events = [
+  {
+    id: 1,
+    title: "Board of Economic Advisors Meeting",
+    month: "NOV",
+    day: 23,
+    time: "1:30 pm",
+    location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
+    phone: "(803) 724-2265",
+    status: "Updated"
+  },
+  {
+    id: 2,
+    title: "Board of Economic Advisors Meeting",
+    month: "NOV",
+    day: 23,
+    time: "1:30 pm",
+    location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
+    phone: "(803) 724-2265",
+    status: "Cancelled"
+  },
+  {
+    id: 3,
+    title: "Board of Economic Advisors Meeting",
+    month: "NOV",
+    day: 23,
+    time: "1:30 pm",
+    location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
+    phone: "(803) 724-2265",
+    status: ""
+  },
+  {
+    id: 4,
+    title: "Board of Economic Advisors Meeting",
+    month: "NOV",
+    day: 23,
+    time: "1:30 pm",
+    location: "Room 417, Bowers Conference Room, Rembert Dennis Building",
+    phone: "(803) 724-2265",
+    status: ""
+  }
+]

@@ -1,5 +1,5 @@
 import './App.css';
-import updates from './mockdata'
+import {updates, events} from './mockdata'
 import NavBar from './Components/NavBar/NavBar'
 import Header from './Components/Header/Header'
 import CatagoryIcons from './Components/CatagoryIcons/CatagoryIcons'
@@ -15,6 +15,7 @@ function App() {
       <CatagoryIcons/>
       <PopularServices/>
       <RecentUpdates updates={updates}/>
+      <CalenderEvents events={events} />
       <Footer/>
     </div>
   );
