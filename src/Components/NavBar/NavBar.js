@@ -1,11 +1,11 @@
 import './NavBar.css'
 import logo from '../../assets/RFA Logo Final.png'
 
-const NavBar = () => {
+const NavBar = ({handleClick}) => {
   return (
     <nav>
       <div className="nav-header">
-        <button>Menu</button>
+        <button onClick={() => handleClick('menu')}>Menu</button>
         <img src={logo} alt="SCRFA logo"/>
         <div className="nav-title">
           <p>South Carolina</p>
@@ -17,8 +17,8 @@ const NavBar = () => {
         <a>About Us</a>
         <a>Events</a>
         <a>Boards & Commitees</a>
-        <button>Search</button>
-      </div>  
+        <button onClick={() => handleClick('search')}>Search</button>
+      </div>
     </nav>
   )
 }

@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import './App.css';
 import {updates, events} from './mockdata'
 import NavBar from './Components/NavBar/NavBar'
@@ -9,9 +10,23 @@ import CalenderEvents from './Components/CalenderEvents/CalenderEvents'
 import Footer from './Components/Footer/Footer'
 
 function App() {
+  const [menu, setMenu] = useState(false)
+  const [search, setSearch] = useState(false)
+
+  const handleClick = (buttonClick) => {
+    switch (buttonClick) {
+      case 'menu':
+        return setMenu(!menu)
+      case 'search':
+        return setSearch(!search)
+      default:
+        return
+    }
+  }
+
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar handleClick={handleClick}/>
       <Header/>
       <CatagoryIcons/>
       <PopularServices/>
