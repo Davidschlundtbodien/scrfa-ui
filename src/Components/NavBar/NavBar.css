@@ -2,15 +2,18 @@ nav {
   background: #ffffff;
   display: flex;
   justify-content: space-between;
+  border-bottom: 10px solid #1b3a61 ;
+  padding: .5em 0;
 }
 .nav-header {
   display: flex;
-
+  justify-content: space-evenly;
+  width: 40%;
 }
 
 .nav-header > img {
-  width: 5em;
-  height: 5em;
+  width: 4.5em;
+  height: 4.5em;
 }
 
 .nav-title {
@@ -24,7 +27,7 @@ nav {
   font-weight: bold;
   color: #1b3a61;
   font-size: 1.2em;
-  margin: 0;
+  margin: 0 .3em;
 }
 
 .nav-title > p:nth-child(3) {

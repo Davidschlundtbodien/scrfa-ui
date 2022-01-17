@@ -1,0 +1,8 @@
+.search-dropdown {
+  top: 4em;
+  right: 1em;
+  padding: 1em;
+  z-index: 50;
+  position: absolute;
+  background: #0074c1;
+}

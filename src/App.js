@@ -8,6 +8,8 @@ import PopularServices from './Components/PopularServices/PopularServices'
 import RecentUpdates from './Components/RecentUpdates/RecentUpdates'
 import CalenderEvents from './Components/CalenderEvents/CalenderEvents'
 import Footer from './Components/Footer/Footer'
+import SearchDropDown from './Components/SearchDropDown/SearchDropDown'
+import MenuDropDown from './Components/MenuDropDown/MenuDropDown'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -27,6 +29,8 @@ function App() {
   return (
     <div className="App">
       <NavBar handleClick={handleClick}/>
+      {menu && <MenuDropDown/>}
+      {search && <SearchDropDown/>}
       <Header/>
       <CatagoryIcons/>
       <PopularServices/>
