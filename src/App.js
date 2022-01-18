@@ -10,6 +10,7 @@ import CalenderEvents from './Components/CalenderEvents/CalenderEvents'
 import Footer from './Components/Footer/Footer'
 import SearchDropDown from './Components/SearchDropDown/SearchDropDown'
 import MenuDropDown from './Components/MenuDropDown/MenuDropDown'
+import BackToTop from './Components/BackToTop/BackToTop'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -38,6 +39,7 @@ function App() {
         <RecentUpdates updates={updates}/>
         <CalenderEvents events={events} />
       </section>
+      <BackToTop/>
       <Footer/>
     </div>
   );
