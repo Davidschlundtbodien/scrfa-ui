@@ -47,3 +47,8 @@
   border: 0;
   padding: 1em;
 }
+
+.view-more-button:hover {
+  background: #3068ad;
+  cursor: pointer;
+}

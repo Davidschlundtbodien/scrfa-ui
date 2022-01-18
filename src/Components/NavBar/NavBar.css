@@ -27,6 +27,11 @@ nav {
   font-size: .8em;
 }
 
+.nav-menu:hover {
+  background: #3068ad;
+  cursor: pointer;
+}
+
 .menu-icon {
   height: 45%;
   width: 100%;
@@ -59,15 +64,26 @@ nav {
   align-items: center;
 }
 
+.nav-links > a {
+  color: #225089;
+}
+
 .nav-search {
   background: #ffffff;
+  color: #0074c1;
   padding: .6em;
   border: 2px solid #0074c1;
   border-radius: 10%;
 }
 
+.nav-search:hover {
+  background: #0074c1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .search-icon {
-  color: #0074c1;
+  color: inherit;
   width: 1.3em;
 }
 
