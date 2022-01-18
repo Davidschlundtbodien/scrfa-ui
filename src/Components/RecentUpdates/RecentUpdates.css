@@ -40,3 +40,10 @@
   color: #f3f6f9;
   padding: 0 .2em;
 }
+
+.view-more-button {
+  background: #0074c1;
+  color: #ffffff;
+  border: 0;
+  padding: 1em;
+}

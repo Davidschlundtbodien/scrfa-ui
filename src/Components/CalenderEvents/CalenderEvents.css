@@ -49,8 +49,13 @@
   display: flex;
   flex-direction: column;
   margin-left: .5em;
+  border-bottom: 1px solid;
+  padding-bottom: .6em;
 }
 
+.event-card:last-child > .event-details {
+  border-bottom: 0px;
+}
 
 .event-details > p {
   margin: 0;
@@ -59,11 +64,15 @@
 
 .event-status {
   text-align: center;
-  width: 17%;
+  width: 5.5em;
 }
 
 .event-title {
   font-weight: bold;
+}
+
+.calender-icon {
+  color: #8c6910;
 }
 
 .updated {

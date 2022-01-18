@@ -1,4 +1,7 @@
 import './CalenderEvents.css'
+import { GoLocation } from "react-icons/go";
+import { AiOutlineClockCircle } from "react-icons/ai";
+import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 const CalenderEvents = ({events}) => {
   let eventList = events.map(event => {
@@ -11,9 +14,9 @@ const CalenderEvents = ({events}) => {
         <div className="event-details">
           {event.status && <p className={`event-status ${event.status.toLowerCase()}`}>{event.status}</p>}
           <p className="event-title">{event.title}</p>
-          <p>{event.location}</p>
-          <p>{event.time}</p>
-          <p>{event.phone}</p>
+          <p><GoLocation className="calender-icon"/> {event.location}</p>
+          <p><AiOutlineClockCircle className="calender-icon"/> {event.time}</p>
+          <p><MdOutlinePermContactCalendar className="calender-icon"/> {event.phone}</p>
         </div>
       </div>
     )
@@ -26,7 +29,7 @@ const CalenderEvents = ({events}) => {
       <div className="calender-list">
         {eventList}
       </div>
-      <button>View All Events</button>
+      <button className="view-more-button">View All Events</button>
     </section>
   )
 }

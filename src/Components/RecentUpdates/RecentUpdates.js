@@ -22,7 +22,7 @@ const RecentUpdates = ({updates}) => {
       <div className="update-list">
         {updateList}
       </div>
-      <button>View More</button>
+      <button className="view-more-button">View More</button>
     </section>
   )
 }

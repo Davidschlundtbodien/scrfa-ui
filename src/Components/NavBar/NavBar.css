@@ -3,17 +3,33 @@ nav {
   display: flex;
   justify-content: space-between;
   border-bottom: 10px solid #1b3a61 ;
-  padding: .5em 0;
 }
 .nav-header {
   display: flex;
-  justify-content: space-evenly;
   width: 40%;
 }
 
 .nav-header > img {
+  margin: .7em;
   width: 4.5em;
   height: 4.5em;
+}
+
+.nav-menu {
+  padding: 1.3em;
+  background: #0074c1;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  font-size: .8em;
+}
+
+.menu-icon {
+  height: 45%;
+  width: 100%;
 }
 
 .nav-title {
@@ -41,4 +57,21 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav-search {
+  background: #ffffff;
+  padding: .6em;
+  border: 2px solid #0074c1;
+  border-radius: 10%;
+}
+
+.search-icon {
+  color: #0074c1;
+  width: 1.3em;
+}
+
+.active {
+  background: #0074c1;
+  color: #ffffff;
 }
