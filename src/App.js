@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar handleClick={handleClick}/>
+      <NavBar handleClick={handleClick} menuActive={menu} searchActive={search}/>
       {menu && <MenuDropDown/>}
       {search && <SearchDropDown/>}
       <Header/>
