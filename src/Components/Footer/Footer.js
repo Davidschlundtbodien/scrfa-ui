@@ -20,17 +20,17 @@ const Footer = () => {
       </div>
       <div className="footer-section">
         <div className="office-address">
-          <h4>Main Office</h4>
+          <h3>Main Office</h3>
           <p>1000 Assembly St. Rembert Dennis Building, Suite 421</p>
           <p>Columbia, SC 29201</p>
         </div>
         <div className="office-address">
-          <h4>Geodetic Survey Section</h4>
+          <h3>Geodetic Survey Section</h3>
           <p>S Geology Rd</p>
           <p>Columbia, SC 29212</p>
         </div>
         <div className="office-address">
-          <h4>Health and Demographics Division</h4>
+          <h3>Health and Demographics Division</h3>
           <p>1000 Assembly St. Rembert Dennis Building, Suite 420</p>
           <p>Columbia, SC 29201</p>
         </div>

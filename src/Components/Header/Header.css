@@ -29,7 +29,7 @@ h1 {
 .header-search {
   color: #ffffff;
   background: #0074c1;
-  width: 16%;
+  width: 20%;
   padding: .6em .7em;
   border: 0;
   display: flex;
@@ -40,4 +40,35 @@ h1 {
 .header-search:hover {
   background: #3068ad;
   cursor: pointer;
+}
+
+@media (max-width:880px) {
+ header {
+   font-size: .7em;
+ }
+
+ .input-search {
+   width: 100%;
+ }
+
+ .header-search {
+   width: 25%;
+ }
+}
+
+@media (max-width:680px) {
+ header {
+   font-size: .7em;
+ }
+ section {
+   width: 80%;
+ }
+
+ .input-search {
+   width: 100%;
+ }
+
+ .header-search {
+   width: 30%;
+ }
 }

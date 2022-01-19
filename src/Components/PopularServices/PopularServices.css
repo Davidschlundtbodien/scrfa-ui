@@ -29,3 +29,9 @@
 .link-column > a {
   margin: 1em 0;
 }
+
+@media (max-width: 680px) {
+  .popular-services {
+    padding: 2em 4em;
+  }
+}

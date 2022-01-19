@@ -23,8 +23,8 @@ const NavBar = ({handleClick, menuActive, searchActive}) => {
           <a>Events</a>
           <a>Boards & Commitees</a>
         </div>
-        {searchActive &&  <button onClick={() => handleClick('search')} className="search-section active"><FaSearch className="search-icon active"/></button>}
-        {!searchActive &&  <button onClick={() => handleClick('search')} className="search-section"><FaSearch className="search-icon"/></button>}
+        {searchActive &&  <button aria-label="Search drop down active" onClick={() => handleClick('search')} className="search-section active"><FaSearch className="search-icon active"/></button>}
+        {!searchActive &&  <button aria-label="Search drop down inactive" onClick={() => handleClick('search')} className="search-section"><FaSearch className="search-icon"/></button>}
       </div>
     </nav>
   )

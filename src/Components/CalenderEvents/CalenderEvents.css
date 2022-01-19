@@ -58,6 +58,7 @@
 }
 
 .event-details > p {
+  display: flex;
   margin: 0;
   font-size: .9em;
 }
@@ -73,6 +74,7 @@
 
 .calender-icon {
   color: #8c6910;
+  margin-right: .4em;
 }
 
 .updated {
@@ -80,8 +82,8 @@
 }
 
 .cancelled {
-  background: #e9261d;
-  color: #f3f6f9;
+  background: #BA1E16;
+  color: #ffffff;
 }
 
 @media (max-width:1080px) {

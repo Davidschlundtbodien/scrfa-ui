@@ -7,6 +7,7 @@ nav {
 .nav-header {
   display: flex;
   width: 40%;
+  align-items: center;
 }
 
 .nav-header > img {
@@ -16,6 +17,7 @@ nav {
 }
 
 .nav-menu {
+  height: 100%;
   padding: 1.3em;
   background: #0074c1;
   color: #ffffff;
@@ -71,6 +73,7 @@ nav {
 }
 
 .nav-links > a {
+  margin: 0 .7em;
   color: #225089;
 }
 
@@ -105,6 +108,10 @@ nav {
 
   .nav-links {
     flex-direction: column;
+  }
+
+  .nav-title {
+    font-size: 1em;
   }
 
 }

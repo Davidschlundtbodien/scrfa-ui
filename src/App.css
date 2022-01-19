@@ -18,3 +18,9 @@
     padding: 3em 0;
   }
 }
+
+@media (max-width:580px) {
+ .App {
+   font-size: .8em;
+ }
+}

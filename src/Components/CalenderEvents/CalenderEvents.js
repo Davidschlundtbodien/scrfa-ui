@@ -12,7 +12,7 @@ const CalenderEvents = ({events}) => {
           <p className="day">{event.day}</p>
         </div>
         <div className="event-details">
-          {event.status && <p className={`event-status ${event.status.toLowerCase()}`}>{event.status}</p>}
+          {event.status && <div className={`event-status ${event.status.toLowerCase()}`}>{event.status}</div>}
           <p className="event-title">{event.title}</p>
           <p><GoLocation className="calender-icon"/> {event.location}</p>
           <p><AiOutlineClockCircle className="calender-icon"/> {event.time}</p>
