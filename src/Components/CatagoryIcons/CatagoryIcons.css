@@ -26,3 +26,14 @@
   height: 60%;
   width: auto;
 }
+
+
+@media (max-width :1080px) {
+  .catagory-section {
+    overflow-x: scroll;
+  }
+
+  .catagory-section::-webkit-scrollbar {
+    display: none;
+  }
+}

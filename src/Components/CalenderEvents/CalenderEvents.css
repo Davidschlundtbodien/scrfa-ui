@@ -83,3 +83,9 @@
   background: #e9261d;
   color: #f3f6f9;
 }
+
+@media (max-width:1080px) {
+  .calender-section {
+    margin-top: 2em;
+  }
+}

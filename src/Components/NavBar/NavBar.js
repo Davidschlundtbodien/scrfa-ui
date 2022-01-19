@@ -17,12 +17,14 @@ const NavBar = ({handleClick, menuActive, searchActive}) => {
           <p>Transforming data into solutions for South Carolina</p>
         </div>
       </div>
-      <div className="nav-links">
-        <a>About Us</a>
-        <a>Events</a>
-        <a>Boards & Commitees</a>
-        {searchActive &&  <button onClick={() => handleClick('search')} className="nav-search active"><FaSearch className="search-icon active"/></button>}
-        {!searchActive &&  <button onClick={() => handleClick('search')} className="nav-search"><FaSearch className="search-icon"/></button>}
+      <div className="nav-search">
+        <div className="nav-links">
+          <a>About Us</a>
+          <a>Events</a>
+          <a>Boards & Commitees</a>
+        </div>
+        {searchActive &&  <button onClick={() => handleClick('search')} className="search-section active"><FaSearch className="search-icon active"/></button>}
+        {!searchActive &&  <button onClick={() => handleClick('search')} className="search-section"><FaSearch className="search-icon"/></button>}
       </div>
     </nav>
   )

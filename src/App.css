@@ -10,3 +10,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width:1080px) {
+  .updates-events {
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+  }
+}

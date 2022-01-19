@@ -1,4 +1,6 @@
 header {
+  background-repeat: no-repeat;
+  background-position: center;
   height: 380px;
   display: flex;
   flex-direction: column;

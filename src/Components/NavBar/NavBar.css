@@ -57,18 +57,24 @@ nav {
   font-weight: lighter;
 }
 
-.nav-links {
+.nav-search {
   width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.nav-links {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
 .nav-links > a {
   color: #225089;
 }
 
-.nav-search {
+.search-section {
   background: #ffffff;
   color: #0074c1;
   padding: .6em;
@@ -76,7 +82,7 @@ nav {
   border-radius: 10%;
 }
 
-.nav-search:hover {
+.search-section:hover {
   background: #0074c1;
   color: #ffffff;
   cursor: pointer;
@@ -90,4 +96,15 @@ nav {
 .active {
   background: #0074c1;
   color: #ffffff;
+}
+
+@media (max-width: 870px) {
+  .nav-header {
+    width: 70%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
 }
