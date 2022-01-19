@@ -1,0 +1,23 @@
+.search-dropdown {
+  display: flex;
+  width: 30%;
+  top: 4em;
+  right: 25px;
+  padding: .8em;
+  z-index: 50;
+  position: absolute;
+  background: #0074c1;
+}
+
+.search-dropdown > input {
+  padding: .5em 0;
+  width: 80%;
+}
+
+.search-dropdown > button {
+  border: 1px solid #ffffff;
+  background: #0074c1;
+  color: #ffffff;
+  margin-left: 1em;
+  padding: .5em .8em;
+}

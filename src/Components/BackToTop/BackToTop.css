@@ -1,0 +1,18 @@
+.back-to-top {
+  margin: 1em 6em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}
+
+.back-to-top-icon {
+  margin: 0 1em;
+  padding: .6em;
+  background: #93a4bd;
+  color: #0074c1;
+  border-radius: 50%;
+}

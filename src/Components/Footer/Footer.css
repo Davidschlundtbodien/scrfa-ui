@@ -1,0 +1,32 @@
+footer {
+  background-color: #1b3a61;
+  font-size: .6em;
+  color: #e1e5ea;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 4em;
+}
+
+img {
+  height: auto;
+  width: 40%;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 1em 0;
+}
+
+.office-address > p {
+  margin: 0;
+}

@@ -1,0 +1,93 @@
+.calender-section {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-calender {
+  color: #142b47;
+  margin: 0;
+}
+
+.calender-spacer {
+  background: #8c6910;
+  height: .2em;
+  width: 13%;
+  margin: .4em 0 2em 0;
+}
+
+.event-card {
+  display: flex;
+  padding: .4em 0;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  color: #f3f6f9;
+  text-align: center;
+  background: #8c6910;
+  height: 10%;
+  padding: .4em;
+}
+
+.event-date > p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.month {
+  font-size: .8em;
+}
+
+.day {
+  font-size: 1.4em;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: .5em;
+  border-bottom: 1px solid;
+  padding-bottom: .6em;
+}
+
+.event-card:last-child > .event-details {
+  border-bottom: 0px;
+}
+
+.event-details > p {
+  display: flex;
+  margin: 0;
+  font-size: .9em;
+}
+
+.event-status {
+  text-align: center;
+  width: 5.5em;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.calender-icon {
+  color: #8c6910;
+  margin-right: .4em;
+}
+
+.updated {
+  background: #d2b859;
+}
+
+.cancelled {
+  background: #BA1E16;
+  color: #ffffff;
+}
+
+@media (max-width:1080px) {
+  .calender-section {
+    margin-top: 2em;
+  }
+}
