@@ -16,6 +16,16 @@ nav {
   height: 4.5em;
 }
 
+.nav-header > img:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.nav-header > img:active {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .nav-menu {
   height: 100%;
   padding: 1.3em;
@@ -75,6 +85,7 @@ nav {
 .nav-links > a {
   margin: 0 .7em;
   color: #225089;
+  text-decoration: none;
 }
 
 .search-section {

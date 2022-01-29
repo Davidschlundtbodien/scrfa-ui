@@ -19,9 +19,9 @@ const NavBar = ({handleClick, menuActive, searchActive}) => {
       </div>
       <div className="nav-search">
         <div className="nav-links">
-          <a>About Us</a>
-          <a>Events</a>
-          <a>Boards & Commitees</a>
+          <a href='#'>About Us</a>
+          <a href='#'>Events</a>
+          <a href='#'>Boards & Commitees</a>
         </div>
         {searchActive &&  <button aria-label="Search drop down active" onClick={() => handleClick('search')} className="search-section active"><FaSearch className="search-icon active"/></button>}
         {!searchActive &&  <button aria-label="Search drop down inactive" onClick={() => handleClick('search')} className="search-section"><FaSearch className="search-icon"/></button>}
