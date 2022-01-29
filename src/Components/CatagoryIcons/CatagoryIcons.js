@@ -8,22 +8,30 @@ import legislativeIcon from '../../assets/Legislative-Icon.svg'
 const CatagoryIcons = () => {
   return (
     <section className="catagory-section">
-      <div className="catagory-icon">
-        <img src={dataIcon} alt="Data chart icon"/>
-        <p>Data & Research</p>
-      </div>
-      <div className="catagory-icon">
-        <img src={geographyIcon} alt="state outline icon"/>
-        <p>Geography & Mapping</p>
-      </div>
-      <div className="catagory-icon">
-        <img src={programsIcon} alt=" services icon"/>
-        <p>Programs & Services</p>
-      </div>
-      <div className="catagory-icon">
-        <img src={legislativeIcon} alt="legislative fiscal icon"/>
-        <p>Legislative Fiscal Impacts</p>
-      </div>
+      <a href='#'>
+        <div className="catagory-icon">
+          <img src={dataIcon} alt="Data chart icon"/>
+          <p>Data & Research</p>
+        </div>
+      </a>
+      <a href='#'>
+        <div className="catagory-icon">
+          <img src={geographyIcon} alt="state outline icon"/>
+          <p>Geography & Mapping</p>
+        </div>
+      </a>
+      <a href='#'>
+        <div className="catagory-icon">
+          <img src={programsIcon} alt=" services icon"/>
+          <p>Programs & Services</p>
+        </div>
+      </a>
+      <a href='#'>
+        <div className="catagory-icon">
+          <img src={legislativeIcon} alt="legislative fiscal icon"/>
+          <p>Legislative Fiscal Impacts</p>
+        </div>
+      </a>
     </section>
   )
 }
