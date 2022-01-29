@@ -3,7 +3,7 @@ import './PopularServices.css'
 const PopularServices = () => {
   return (
     <section className="popular-services">
-     <h1 className="title-popular">Popular Services and Links</h1>
+     <h1 className="title-popular">POPULAR SERVICES AND LINKS</h1>
      <div className="title-spacer"></div>
      <div className="link-list">
       <div className="link-column">
