@@ -1,4 +1,4 @@
-import './PopularServices.css'
+import './PopularServices.scss'
 
 const PopularServices = () => {
   return (

@@ -1,4 +1,4 @@
-import './CatagoryIcons.css'
+import './CatagoryIcons.scss'
 import dataIcon from '../../assets/Data-Research-Icon.svg'
 import geographyIcon from '../../assets/Geography-Icon.svg'
 import programsIcon from '../../assets/Programs-Icon.svg'

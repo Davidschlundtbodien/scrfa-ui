@@ -1,4 +1,4 @@
-import './CalenderEvents.css'
+import './CalenderEvents.scss'
 import EventCard from '../EventCard/EventCard'
 
 const CalenderEvents = ({events}) => {

@@ -1,4 +1,4 @@
-import './Header.css'
+import './Header.scss'
 import shutterstock_42474535 from '../../assets/shutterstock_42474535.jpg'
 import { FaSearch } from "react-icons/fa";
 

@@ -1,4 +1,4 @@
-import './UpdateCard.css'
+import './UpdateCard.scss'
 
 
 const UpdateCard = ({update}) => {

@@ -1,3 +1,6 @@
+@import '../../colors.scss';
+
+
 .search-dropdown {
   display: flex;
   width: 30%;
@@ -6,7 +9,7 @@
   padding: .8em;
   z-index: 50;
   position: absolute;
-  background: #0074c1;
+  background: $light-blue;
 }
 
 .search-dropdown > input {
@@ -15,9 +18,9 @@
 }
 
 .search-dropdown > button {
-  border: 1px solid #ffffff;
-  background: #0074c1;
-  color: #ffffff;
+  border: 1px solid $navbar-white;
+  background: $light-blue;
+  color: $navbar-white;
   margin-left: 1em;
   padding: .5em .8em;
 }

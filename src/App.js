@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './App.css';
+import './App.scss';
 import {updates, events} from './mockdata'
 import NavBar from './Components/NavBar/NavBar'
 import Header from './Components/Header/Header'

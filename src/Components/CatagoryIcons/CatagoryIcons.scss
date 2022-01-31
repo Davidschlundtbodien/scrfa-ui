@@ -1,5 +1,7 @@
+@import '../../colors.scss';
+
 .catagory-section {
-  background: #e1e5ea;
+  background: $footer-white;
   padding: 2em 7em;
   height: 10%;
   width: auto;
@@ -7,7 +9,7 @@
   justify-content: space-evenly;
   align-items: center;
   font-weight: bold;
-  color: #225089;
+  color: $dark-blue;
 }
 
 .catagory-section > a {
@@ -23,7 +25,7 @@
   height: 8em;
   width: 8em;
   margin: 1em;
-  background: #f3f6f9;
+  background: $background-grey;
   padding: 2em 3em;
   display: flex;
   flex-direction: column;

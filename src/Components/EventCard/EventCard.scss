@@ -1,3 +1,5 @@
+@import '../../colors.scss';
+
 .event-card {
   display: flex;
   padding: .4em 0;
@@ -6,9 +8,9 @@
 .event-date {
   display: flex;
   flex-direction: column;
-  color: #f3f6f9;
+  color: $background-grey;
   text-align: center;
-  background: #8c6910;
+  background: $border-yellow;
   height: 10%;
   padding: .4em;
 }
@@ -54,15 +56,15 @@
 }
 
 .calender-icon {
-  color: #8c6910;
+  color: $border-yellow;
   margin-right: .4em;
 }
 
 .updated {
-  background: #d2b859;
+  background: $status-yellow;
 }
 
 .cancelled {
-  background: #BA1E16;
-  color: #ffffff;
+  background: $status-red;
+  color: $navbar-white;
 }

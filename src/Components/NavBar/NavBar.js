@@ -1,4 +1,4 @@
-import './NavBar.css'
+import './NavBar.scss'
 import logo from '../../assets/RFA Logo Final.png'
 import { FaSearch } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";

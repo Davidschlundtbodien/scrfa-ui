@@ -1,6 +1,9 @@
+@import '../../colors.scss';
+
+
 .menu-dropdown {
   width: 100%;
-  background: #ffffff;
+  background: $navbar-white;
   position: absolute;
   top: 5.8em;
   display: flex;
@@ -9,7 +12,7 @@
 
 .dropdown-links {
   width: 20%;
-  background: #f3f6f9;
+  background: $background-grey;
   padding: 2.5em;
   display: flex;
   flex-direction: column;
@@ -19,7 +22,7 @@
   margin: 0;
   font-size: .8em;
   font-weight: bold;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid $border-grey;
   padding: 1em 0em;
   text-decoration: none;
   color: inherit;
@@ -55,12 +58,12 @@
 
 .catagory-title {
   font-weight: bold;
-  color: #1b3a61;
+  color: $dark-blue;
   font-weight: bold;
 }
 
 .catagory-spacer {
-  background: #8c6910;
+  background: $border-yellow;
   height: .2em;
   width: 13%;
   margin: .4em 0 1em 0;

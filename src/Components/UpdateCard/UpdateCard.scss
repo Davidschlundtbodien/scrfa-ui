@@ -1,3 +1,5 @@
+@import '../../colors.scss';
+
 .update-card {
   display: flex;
   flex-direction: column;
@@ -17,14 +19,14 @@
 
 .status-icon {
   margin-left: .3em;
-  background: #666666;
-  color: #f3f6f9;
+  background: $status-grey;
+  color: $background-grey;
   padding: 0 .2em;
 }
 
 .view-more-button {
-  background: #0074c1;
-  color: #ffffff;
+  background: $light-blue;
+  color: $navbar-white;
   border: 0;
   padding: 1em;
 }

@@ -1,4 +1,4 @@
-import './EventCard.css'
+import './EventCard.scss'
 import { GoLocation } from "react-icons/go";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { MdOutlinePermContactCalendar } from "react-icons/md";

@@ -1,4 +1,4 @@
-import './RecentUpdates.css'
+import './RecentUpdates.scss'
 import UpdateCard from '../UpdateCard/UpdateCard'
 
 const RecentUpdates = ({updates}) => {

@@ -1,4 +1,4 @@
-import './BackToTop.css'
+import './BackToTop.scss'
 import { FaChevronUp } from "react-icons/fa";
 
 

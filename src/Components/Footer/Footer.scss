@@ -1,7 +1,9 @@
+@import '../../colors.scss';
+
 footer {
-  background-color: #1b3a61;
+  background-color: $dark-blue;
   font-size: .6em;
-  color: #e1e5ea;
+  color: $footer-white;
   text-align: left;
   display: flex;
   justify-content: space-around;
