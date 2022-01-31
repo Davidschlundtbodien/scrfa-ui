@@ -14,9 +14,9 @@ const EventCard = ({event}) => {
       <div className="event-details">
         {event.status && <div className={`event-status ${event.status.toLowerCase()}`}>{event.status}</div>}
         <p className="event-title">{event.title}</p>
-        <p><GoLocation className="calender-icon"/> {event.location}</p>
-        <p><AiOutlineClockCircle className="calender-icon"/> {event.time}</p>
-        <p><MdOutlinePermContactCalendar className="calender-icon"/> {event.phone}</p>
+        <p aria-label="event address"><GoLocation className="calender-icon"/> {event.location}</p>
+        <p aria-label="event start time"><AiOutlineClockCircle className="calender-icon"/> {event.time}</p>
+        <p aria-label="event contact number"><MdOutlinePermContactCalendar className="calender-icon"/> {event.phone}</p>
       </div>
     </div>
   )
