@@ -20,3 +20,10 @@
   color: $light-blue;
   border-radius: 50%;
 }
+
+
+@media (max-width: 320px) {
+  .back-to-top {
+    margin: 1em 1em;
+  }
+}

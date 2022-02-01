@@ -32,3 +32,19 @@ li {
 .office-address > p {
   margin: 0;
 }
+
+@media (max-width: 320px) {
+
+  .footer-section > h2 {
+    display: none;
+  }
+
+  .footer-section > img {
+    display: none;
+  }
+
+  .footer-section > ul {
+    padding-left: 0;
+    padding-right: 1em;
+  }
+}

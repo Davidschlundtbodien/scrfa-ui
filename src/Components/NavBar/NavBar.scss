@@ -129,3 +129,28 @@ nav {
   }
 
 }
+
+@media (max-width: 320px) {
+  .nav-title{
+    padding: .8em 0;
+  }
+
+  .nav-title > p {
+    font-weight: bold;
+    color: $dark-blue;
+    font-size: .8em;
+    margin: 0 .3em;
+  }
+
+  .nav-title > p:nth-child(3) {
+    display: none;
+  }
+
+  .nav-search {
+    flex-direction: column;
+  }
+
+  .search-section {
+    display: none;
+  }
+}
