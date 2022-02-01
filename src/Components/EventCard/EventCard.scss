@@ -1,21 +1,4 @@
-.calender-section {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.title-calender {
-  color: #142b47;
-  margin: 0;
-}
-
-.calender-spacer {
-  background: #8c6910;
-  height: .2em;
-  width: 13%;
-  margin: .4em 0 2em 0;
-}
+@import '../../colors.scss';
 
 .event-card {
   display: flex;
@@ -25,9 +8,9 @@
 .event-date {
   display: flex;
   flex-direction: column;
-  color: #f3f6f9;
+  color: $background-grey;
   text-align: center;
-  background: #8c6910;
+  background: $border-yellow;
   height: 10%;
   padding: .4em;
 }
@@ -73,21 +56,15 @@
 }
 
 .calender-icon {
-  color: #8c6910;
+  color: $border-yellow;
   margin-right: .4em;
 }
 
 .updated {
-  background: #d2b859;
+  background: $status-yellow;
 }
 
 .cancelled {
-  background: #BA1E16;
-  color: #ffffff;
-}
-
-@media (max-width:1080px) {
-  .calender-section {
-    margin-top: 2em;
-  }
+  background: $status-red;
+  color: $navbar-white;
 }

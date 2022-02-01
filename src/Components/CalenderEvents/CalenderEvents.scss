@@ -1,0 +1,28 @@
+@import '../../colors.scss';
+
+.calender-section {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-calender {
+  color: $dark-blue;
+  margin: 0;
+}
+
+.calender-spacer {
+  background: $border-yellow;
+  height: .2em;
+  width: 13%;
+  margin: .4em 0 2em 0;
+}
+
+
+
+@media (max-width:1080px) {
+  .calender-section {
+    margin-top: 2em;
+  }
+}

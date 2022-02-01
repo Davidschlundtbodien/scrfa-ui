@@ -1,7 +1,8 @@
+@import 'colors.scss';
+
 .App {
-  font-family: 'Roboto Slab';
   text-align: center;
-  background: #f3f6f9;
+  background: $background-grey;
 }
 
 .updates-events {

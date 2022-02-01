@@ -1,21 +1,4 @@
-.recent-updates {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.title-recent {
-  color: #142b47;
-  margin: 0;
-}
-
-.recent-spacer {
-  background: #8c6910;
-  height: .2em;
-  width: 13%;
-  margin: .4em 0 2em 0;
-}
+@import '../../colors.scss';
 
 .update-card {
   display: flex;
@@ -36,14 +19,14 @@
 
 .status-icon {
   margin-left: .3em;
-  background: #666666;
-  color: #f3f6f9;
+  background: $status-grey;
+  color: $background-grey;
   padding: 0 .2em;
 }
 
 .view-more-button {
-  background: #0074c1;
-  color: #ffffff;
+  background: $light-blue;
+  color: $navbar-white;
   border: 0;
   padding: 1em;
 }

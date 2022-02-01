@@ -1,0 +1,21 @@
+@import '../../colors.scss';
+
+
+.recent-updates {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-recent {
+  color: $dark-blue;
+  margin: 0;
+}
+
+.recent-spacer {
+  background: $border-yellow;
+  height: .2em;
+  width: 13%;
+  margin: .4em 0 2em 0;
+}

@@ -1,4 +1,4 @@
-import './NavBar.css'
+import './NavBar.scss'
 import logo from '../../assets/RFA Logo Final.png'
 import { FaSearch } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
@@ -12,16 +12,16 @@ const NavBar = ({handleClick, menuActive, searchActive}) => {
         {!menuActive && <button onClick={() => handleClick('menu')} className="nav-menu"> <FiMenu className="menu-icon"/> Menu</button>}
         <img src={logo} alt="SCRFA logo"/>
         <div className="nav-title">
-          <p>South Carolina</p>
-          <p>Revenue and Fiscal Affairs Office</p>
+          <p>SOUTH CAROLINA</p>
+          <p>REVENUE AND FISCAL AFFAIRS OFFICES</p>
           <p>Transforming data into solutions for South Carolina</p>
         </div>
       </div>
       <div className="nav-search">
         <div className="nav-links">
-          <a>About Us</a>
-          <a>Events</a>
-          <a>Boards & Commitees</a>
+          <a href='#'>About Us</a>
+          <a href='#'>Events</a>
+          <a href='#'>Boards & Commitees</a>
         </div>
         {searchActive &&  <button aria-label="Search drop down active" onClick={() => handleClick('search')} className="search-section active"><FaSearch className="search-icon active"/></button>}
         {!searchActive &&  <button aria-label="Search drop down inactive" onClick={() => handleClick('search')} className="search-section"><FaSearch className="search-icon"/></button>}

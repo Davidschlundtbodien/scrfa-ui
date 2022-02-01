@@ -1,8 +1,10 @@
+@import '../../colors.scss';
+
 nav {
-  background: #ffffff;
+  background: $navbar-white;
   display: flex;
   justify-content: space-between;
-  border-bottom: 10px solid #1b3a61 ;
+  border-bottom: 10px solid $dark-blue ;
 }
 .nav-header {
   display: flex;
@@ -16,11 +18,21 @@ nav {
   height: 4.5em;
 }
 
+.nav-header > img:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.nav-header > img:active {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .nav-menu {
   height: 100%;
   padding: 1.3em;
-  background: #0074c1;
-  color: #ffffff;
+  background: $light-blue;
+  color: $navbar-white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +42,7 @@ nav {
 }
 
 .nav-menu:hover {
-  background: #3068ad;
+  background: $hover-blue;
   cursor: pointer;
 }
 
@@ -48,8 +60,8 @@ nav {
 
 .nav-title > p {
   font-weight: bold;
-  color: #1b3a61;
-  font-size: 1.2em;
+  color: $dark-blue;
+  font-size: 1.02em;
   margin: 0 .3em;
 }
 
@@ -74,20 +86,22 @@ nav {
 
 .nav-links > a {
   margin: 0 .7em;
-  color: #225089;
+  color: $dark-blue;
+  text-decoration: none;
+  font-size: .9em;
 }
 
 .search-section {
-  background: #ffffff;
-  color: #0074c1;
+  background: $navbar-white;
+  color: $light-blue;
   padding: .6em;
-  border: 2px solid #0074c1;
+  border: 2px solid $light-blue;
   border-radius: 10%;
 }
 
 .search-section:hover {
-  background: #0074c1;
-  color: #ffffff;
+  background: $light-blue;
+  color: $navbar-white;
   cursor: pointer;
 }
 
@@ -97,8 +111,8 @@ nav {
 }
 
 .active {
-  background: #0074c1;
-  color: #ffffff;
+  background: $light-blue;
+  color: $navbar-white;
 }
 
 @media (max-width: 870px) {
@@ -114,4 +128,29 @@ nav {
     font-size: 1em;
   }
 
+}
+
+@media (max-width: 320px) {
+  .nav-title{
+    padding: .8em 0;
+  }
+
+  .nav-title > p {
+    font-weight: bold;
+    color: $dark-blue;
+    font-size: .8em;
+    margin: 0 .3em;
+  }
+
+  .nav-title > p:nth-child(3) {
+    display: none;
+  }
+
+  .nav-search {
+    flex-direction: column;
+  }
+
+  .search-section {
+    display: none;
+  }
 }

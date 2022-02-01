@@ -1,7 +1,9 @@
+@import '../../colors.scss';
+
 footer {
-  background-color: #1b3a61;
+  background-color: $dark-blue;
   font-size: .6em;
-  color: #e1e5ea;
+  color: $footer-white;
   text-align: left;
   display: flex;
   justify-content: space-around;
@@ -29,4 +31,20 @@ li {
 
 .office-address > p {
   margin: 0;
+}
+
+@media (max-width: 320px) {
+
+  .footer-section > h2 {
+    display: none;
+  }
+
+  .footer-section > img {
+    display: none;
+  }
+
+  .footer-section > ul {
+    padding-left: 0;
+    padding-right: 1em;
+  }
 }

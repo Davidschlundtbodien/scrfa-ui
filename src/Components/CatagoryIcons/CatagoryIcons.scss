@@ -1,0 +1,56 @@
+@import '../../colors.scss';
+
+.catagory-section {
+  background: $footer-white;
+  padding: 2em 7em;
+  height: 10%;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  color: $dark-blue;
+}
+
+.catagory-section > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.catagory-section > a:hover {
+  transform: scale(1.08);
+}
+
+.catagory-icon {
+  height: 8em;
+  width: 8em;
+  margin: 1em;
+  background: $background-grey;
+  padding: 2em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catagory-icon > img {
+  height: 60%;
+}
+
+
+@media (max-width :1080px) {
+  .catagory-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+  }
+}
+
+@media (max-width :450px) {
+  .catagory-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+}

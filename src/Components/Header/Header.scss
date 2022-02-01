@@ -1,3 +1,5 @@
+@import '../../colors.scss';
+
 header {
   background-repeat: no-repeat;
   background-position: center;
@@ -13,7 +15,7 @@ section {
 }
 
 h1 {
-  color: #f3f6f9;
+  color: $background-grey;
 }
 
 .input-search {
@@ -22,13 +24,14 @@ h1 {
 }
 
 .input-search > input {
+  font-style: italic;
   width: 50%;
   margin-right: 1em;
 }
 
 .header-search {
-  color: #ffffff;
-  background: #0074c1;
+  color: $navbar-white;
+  background: $light-blue;
   width: 20%;
   padding: .6em .7em;
   border: 0;
@@ -38,7 +41,7 @@ h1 {
 }
 
 .header-search:hover {
-  background: #3068ad;
+  background: $hover-blue;
   cursor: pointer;
 }
 
